@@ -7,10 +7,12 @@ Date: .  2018
 Summary: 
 */
 import java.util.Scanner;
+
 class Example_Project {
-public static void main(String[] args) {
-Scanner reader = new Scanner(System.in); 
-System.out.print("Enter a number: ");
-String input = reader();        
-}
+	public static void main(String[] args) {
+		Scanner reader = new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		String input = reader.nextLine();
+		System.out.println(input);
+	}
 }
